@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  virtuoso:
+    environment: 
+      PORT: 1234
+    ports:
+      - "3001:1234"
+    build:
+      context: ./virtuoso
+      args:
+        DBA_PASSWORD: abcd
+  web:
+    environment: 
+      PORT: 1234
+    ports:
+      - "3000:1234"
+    build:
+      context: ./web
+      args:
+        SPARQL_ENDPOINT_URL: http://virtuoso:1234/sparql

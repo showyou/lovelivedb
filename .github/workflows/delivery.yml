@@ -1,0 +1,78 @@
+name: Delivery Containers
+
+on: 
+  push:
+    branches:
+      - main
+
+env:
+  GCP_PROJECT: prismdb
+  GCP_REGION: asia-northeast1
+
+jobs:
+
+  delivery:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        SERVICE_NAME: [web, virtuoso]
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      - name: prepara rdfs
+        working-directory: csv2rdf
+        run: | 
+          npm ci
+          BASE_URL=https://prismdb.takanakahiko.me npm start
+
+      - name: GCP Authenticate
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v1
+
+      - name: Configure docker to use the gcloud cli
+        run: gcloud auth configure-docker --quiet
+
+      - if: matrix.SERVICE_NAME == 'web'
+        run: echo "BUILD_ARGS=--build-arg SPARQL_ENDPOINT_URL=${{ secrets.SPARQL_ENDPOINT_URL }}" >> $GITHUB_ENV
+      
+      - if: matrix.SERVICE_NAME == 'virtuoso'
+        run: echo "BUILD_ARGS=--build-arg DBA_PASSWORD=${{ secrets.DBA_PASSWORD }}" >> $GITHUB_ENV
+
+      - name: Set the docker image name
+        run: echo "IMAGE=asia.gcr.io/${{env.GCP_PROJECT}}/${{ matrix.SERVICE_NAME }}:${{ github.sha }}" >> $GITHUB_ENV
+
+      - name: Build a docker image
+        run: docker build ${{ matrix.SERVICE_NAME }} -t $IMAGE $BUILD_ARGS
+
+      - name: Push the docker image
+        run: docker push $IMAGE
+
+      - name: Deploy to Cloud Run
+        run: |
+            gcloud run deploy ${{ matrix.SERVICE_NAME }} \
+              --image $IMAGE \
+              --project $GCP_PROJECT \
+              --region $GCP_REGION \
+              --platform managed \
+              --memory 512Mi \
+              --allow-unauthenticated \
+              --quiet \
+              $DEPLOY_ARGS
+
+      - name: Slack Notification
+        uses: lazy-actions/slatify@master
+        if: always()
+        continue-on-error: true
+        with:
+          job_name:  ${{ format('*delivery* ({0})', matrix.SERVICE_NAME) }}
+          type: ${{ job.status }}
+          url: ${{ secrets.SLACK_WEBHOOK }}
+          token: ${{ secrets.GITHUB_TOKEN }}
