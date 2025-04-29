@@ -14,5 +14,5 @@ jobs:
       - working-directory: csv2rdf
         run: | 
           npm ci
-          BASE_URL=https://prismdb.takanakahiko.me npm start
+          BASE_URL=https://lovelivedb.bluearchive.uk npm start
       - run: rdflint -config virtuoso/rdflint-config.yml -targetdir virtuoso/data/toLoad

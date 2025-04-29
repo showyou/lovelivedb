@@ -3,7 +3,7 @@ name: Build Containers
 on: [pull_request]
 
 env:
-  SPARQL_ENDPOINT_URL: https://prismdb.takanakahiko.me/sparql
+  SPARQL_ENDPOINT_URL: https://lovelivedb.bluearchive.uk/sparql
   DBA_PASSWORD: hogehuga
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
         working-directory: csv2rdf
         run: | 
           npm ci
-          BASE_URL=https://prismdb.takanakahiko.me npm start
+          BASE_URL=https://lovelivedb.takanakahiko.me npm start
 
       - name: Configure docker to use the gcloud cli
         run: gcloud auth configure-docker --quiet

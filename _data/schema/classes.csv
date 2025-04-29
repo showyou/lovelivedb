@@ -1,10 +1,6 @@
 key,label,comment,subClassOf
 Character,登場人物,登場人物,
 Song,曲,曲,
-Episode,エピソード,エピソード,
 Live,ライブ,,
-Series,シリーズ,,
-Item,アイテム,アーケードゲームで使用するアイテム,
-Shop,ショップ,アーケードゲームが利用できるお店,
-Team,チーム,物語でライブをしたチーム,
-Brand,ブランド,,
+Project,プロジェクト,,
+Unit,ユニット,物語でライブをしたユニット,
