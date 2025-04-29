@@ -1,6 +1,6 @@
 # lovelivedb
 
-prismdb(https://github.com/prickathon/prismdb)を基に、ラブライブの情報をまとめるプラットフォームを目指してます
+prismdb(https://github.com/prickathon/prismdb) を基に、ラブライブの情報をまとめるプラットフォームを目指してます
 
 ## Environment
 
