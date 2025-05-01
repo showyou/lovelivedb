@@ -1,5 +1,5 @@
 {
-    "subjectBaseUrl": "$BASE_URL/prism-schema.ttl#",
+    "subjectBaseUrl": "$BASE_URL/lovelive-schema.ttl#",
     "PredicateBaseUrl": "",
     "dataCsvPath": "../_data/schema/classes.csv",
     "columnsCsvPath": "../_data/schema/classes-columns.csv",

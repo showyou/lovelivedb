@@ -1,3 +1,4 @@
-key,predicate,dataType
-name,name,
-name_kana,name_kana,
+key,predicate,dataType,objectUriPrefix
+name,name,,
+name_kana,name_kana,,
+unit,unit,,$BASE_URL/rdfs/unit/
