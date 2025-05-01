@@ -28,7 +28,7 @@ const cmOptions = {
   fullLines: true
 }
 const title = data.value.description
-const editorLink = `https://prismdb.takanakahiko.me/sparql?qtxt=${encodeURIComponent(code)}`
+const editorLink = `https://lovelivedb.bluearchive.uk/sparql?qtxt=${encodeURIComponent(code)}`
 </script>
 
 <template>

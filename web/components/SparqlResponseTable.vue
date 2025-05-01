@@ -32,13 +32,13 @@ const props = defineProps({
           <a
             v-if="term.type == 'uri'"
             :href="
-              term.value.replace('https://prismdb.takanakahiko.me', '')
+              term.value.replace('https://lovelivedb.bluearchive.uk', '')
             "
           >{{ term.value
-            .replace('https://prismdb.takanakahiko.me/prism-schema.ttl#', 'prism:')
+            .replace('https://lovelivedb.bluearchive.uk/lovelovie-schema.ttl#', 'prism:')
             .replace('http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'rdf:')
             .replace('http://www.w3.org/2000/01/rdf-schema#', 'rdfs:')
-            .replace('https://prismdb.takanakahiko.me', '')
+            .replace('https://lovelivedb.bluearchive.uk', '')
           }}</a>
           <span v-else>{{ term.value }}</span>
         </th>

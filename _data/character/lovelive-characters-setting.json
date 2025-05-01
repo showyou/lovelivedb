@@ -1,8 +1,0 @@
-{
-    "subjectBaseUrl": "$BASE_URL/rdfs/character/",
-    "PredicateBaseUrl": "$BASE_URL/lovelive-schema.ttl#",
-    "dataCsvPath": "../_data/character/lovelive-characters.csv",
-    "columnsCsvPath": "../_data/character/lovelive-characters-columns.csv",
-    "rdfType": "$BASE_URL/lovelive-schema.ttl#Character",
-    "label": {"keys": ["name"], "pattern": "$0"}
-}
