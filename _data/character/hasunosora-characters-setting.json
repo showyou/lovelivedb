@@ -1,8 +1,8 @@
 {
     "subjectBaseUrl": "$BASE_URL/rdfs/character/",
-    "PredicateBaseUrl": "$BASE_URL/hasunosora-schema.ttl#",
+    "PredicateBaseUrl": "$BASE_URL/lovelive-schema.ttl#",
     "dataCsvPath": "../_data/character/hasunosora-characters.csv",
     "columnsCsvPath": "../_data/character/hasunosora-characters-columns.csv",
-    "rdfType": "$BASE_URL/hasunosora-schema.ttl#Character",
+    "rdfType": "$BASE_URL/lovelive-schema.ttl#Character",
     "label": {"keys": ["name"], "pattern": "$0"}
 }

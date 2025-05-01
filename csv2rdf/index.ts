@@ -12,11 +12,11 @@ const main = async () => {
   const schema = new Csv2rdf()
   await schema.load('../_data/schema/classes-setting.json')
   await schema.load('../_data/schema/properties-setting.json')
-  await schema.export('../virtuoso/data/toLoad/prism-schema.ttl')
+  await schema.export('../virtuoso/data/toLoad/lovelive-schema.ttl')
 
   // webでホストする schema.ttl も更新
-  if(fs.existsSync('../web/assets/prism-schema.ttl')) fs.unlinkSync('../web/assets/prism-schema.ttl')
-  await schema.export('../web/assets/prism-schema.ttl')
+  if(fs.existsSync('../web/assets/lovelive-schema.ttl')) fs.unlinkSync('../web/assets/lovelive-schema.ttl')
+  await schema.export('../web/assets/lovelive-schema.ttl')
 
   // output.ttl(virtuosoにロードするデータ)を作成
   const csv2rdf = new Csv2rdf()
