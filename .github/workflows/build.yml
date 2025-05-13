@@ -24,7 +24,7 @@ jobs:
         working-directory: csv2rdf
         run: | 
           npm ci
-          BASE_URL=https://lovelivedb.takanakahiko.me npm start
+          BASE_URL=https://lovelivedb.bluearchive.uk npm start
 
       - name: Configure docker to use the gcloud cli
         run: gcloud auth configure-docker --quiet
