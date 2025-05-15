@@ -8,7 +8,7 @@ on:
 env:
   GCP_PROJECT: custom-sun-238300
   GCP_REGION: asia-northeast1
-  REPO_NAMEE: lovelivedb
+  REPO_NAME: lovelivedb
 
 jobs:
 
