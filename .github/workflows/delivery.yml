@@ -48,7 +48,7 @@ jobs:
         run: echo "BUILD_ARGS=--build-arg DBA_PASSWORD=${{ secrets.DBA_PASSWORD }}" >> $GITHUB_ENV
 
       - name: Set the docker image name
-        run: echo "IMAGE=asia-docker.pkg.dev/${{env.GCP_PROJECT}}/${{ env.REPO_NAME }}/${{ matrix.SERVICE_NAME }}:${{ github.sha }}" >> $GITHUB_ENV
+        run: echo "IMAGE=asia-northeast1-docker.pkg.dev/${{env.GCP_PROJECT}}/${{ env.REPO_NAME }}/${{ matrix.SERVICE_NAME }}:${{ github.sha }}" >> $GITHUB_ENV
 
       - name: Build a docker image
         run: docker build ${{ matrix.SERVICE_NAME }} -t $IMAGE $BUILD_ARGS
