@@ -8,6 +8,7 @@ on:
 env:
   GCP_PROJECT: custom-sun-238300
   GCP_REGION: asia-northeast1
+  REPO_NAMEE: lovelivedb
 
 jobs:
 
@@ -38,7 +39,7 @@ jobs:
         uses: google-github-actions/setup-gcloud@v1
 
       - name: Configure docker to use the gcloud cli
-        run: gcloud auth configure-docker --quiet
+        run: gcloud auth configure-docker asia-northeast1-docker.pkg.dev --quiet
 
       - if: matrix.SERVICE_NAME == 'web'
         run: echo "BUILD_ARGS=--build-arg SPARQL_ENDPOINT_URL=${{ secrets.SPARQL_ENDPOINT_URL }}" >> $GITHUB_ENV
@@ -47,7 +48,7 @@ jobs:
         run: echo "BUILD_ARGS=--build-arg DBA_PASSWORD=${{ secrets.DBA_PASSWORD }}" >> $GITHUB_ENV
 
       - name: Set the docker image name
-        run: echo "IMAGE=asia-docker.pkg.dev/${{env.GCP_PROJECT}}/${{ matrix.SERVICE_NAME }}:${{ github.sha }}" >> $GITHUB_ENV
+        run: echo "IMAGE=asia-docker.pkg.dev/${{env.GCP_PROJECT}}/${{ env.REPO_NAME }}/${{ matrix.SERVICE_NAME }}:${{ github.sha }}" >> $GITHUB_ENV
 
       - name: Build a docker image
         run: docker build ${{ matrix.SERVICE_NAME }} -t $IMAGE $BUILD_ARGS
