@@ -1,6 +1,6 @@
-key,predicate,dataType,objectUriPrefix
-name,name,,
-name_kana,name_kana,,
-name_katakana,name_katakana,,
-members,members,,
-project,project,,$BASE_URL/rdfs/project/
+key,predicate,dataType,objectUriPrefix,objectsSeparator
+name,name,,,
+name_kana,name_kana,,,
+name_katakana,name_katakana,,,
+members,members,,$BASE_URL/rdfs/character/,&
+project,project,,$BASE_URL/rdfs/project/,
