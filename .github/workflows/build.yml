@@ -3,7 +3,7 @@ name: Build Containers
 on: [pull_request]
 
 env:
-  SPARQL_ENDPOINT_URL: https://lovelivedb.bluearchive.uk/sparql
+  SPARQL_ENDPOINT_URL: https://sparql.bluearchive.uk
   DBA_PASSWORD: hogehuga
 
 jobs:
