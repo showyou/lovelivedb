@@ -25,6 +25,7 @@ const main = async () => {
   await csv2rdf.load('../_data/song/songs-setting.json')
   //await csv2rdf.load('../_data/live/pripara-lives-setting.json')
   //await csv2rdf.load('../_data/live/hasu-lives-setting.json')
+  await csv2rdf.load('../_data/unit-group/unit-groups-setting.json')
   await csv2rdf.load('../_data/unit/units-setting.json')
   //await csv2rdf.load('../_data/brand/brands-setting.json')
   await csv2rdf.export('../virtuoso/data/toLoad/output.ttl')
