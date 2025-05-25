@@ -1,6 +1,15 @@
-key,name,name_kana,name_katakana,members,project
-cerise_bouquet,スリーズブーケ,すりーずぶーけ,スリーズブーケ,hinoshita_kano & momose_ginko & otomune_kozue,hasu_no_sora
-dollchestra,DOLLCHESTRA,どるけすとら,ドルケストラ,murano_sayaka & kachimachi_kosuzu & yugiri_tsuzuri,hasu_no_sora
-mira-cra_park,みらくらぱーく！,みらくらぱーく,ミラクラパーク,osawa_rurino & anyoji_hime & fujishima_megumi,hasu_no_sora
-edel_note,Edel Note,えーでるのーと,エーデルノート,ceras_y_lilienfeld & katsuragi_izumi,hasu_no_sora
-ほげ,test,てすと,テスト,,superstar
+key,year,members
+cerise_bouquet_103,103,hinoshita_kano & otomune_kozue
+cerise_bouquet_104,104,hinoshita_kano & momose_ginko & otomune_kozue
+cerise_bouquet_105,105,hinoshita_kano & momose_ginko
+dollchestra_103,103,murano_sayaka & yugiri_tsuzuri
+dollchestra_104,104,murano_sayaka & kachimachi_kosuzu & yugiri_tsuzuri
+dollchestra_105,105,murano_sayaka & kachimachi_kosuzu
+mira-cra_park_103,103,osawa_rurino & fujishima_megumi
+mira-cra_park_104,104,osawa_rurino & anyoji_hime & fujishima_megumi
+mira-cra_park_105,105,osawa_rurino & anyoji_hime
+edel_note_104,104,ceras_y_lilienfeld & katsuragi_izumi
+edel_note_105,105,ceras_y_lilienfeld & katsuragi_izumi
+hasu_no_sora_103,103,hinoshita_kano & murano_sayaka & osawa_rurino & otomune_kozue & yugiri_tsuzuri & fujishima_megumi
+hasu_no_sora_104,104,hinoshita_kano & murano_sayaka & osawa_rurino & otomune_kozue & yugiri_tsuzuri & fujishima_megumi & momose_ginko & kachimachi_kosuzu & anyoji_hime
+hasu_no_sora_105,105,hinoshita_kano & murano_sayaka & osawa_rurino & momose_ginko & kachimachi_kosuzu & anyoji_hime & ceras_y_lilienfeld & katsuragi_izumi

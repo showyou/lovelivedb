@@ -2,7 +2,6 @@ key,predicate,dataType,objectUriPrefix,objectsSeparator
 name,name,,,
 name_kana,name_kana,,,
 cv,cv,,,
-unit,unit,,$BASE_URL/rdfs/unit/,
 birthday,birthday,,,
 height,height,http://www.w3.org/2001/XMLSchema#integer,,
 hobby,hobby,,,
