@@ -1,52 +1,66 @@
-key,name,name_kana,unit
-genyou_yako,眩耀夜行,げんようやこう,cerise_bouquet
-knot,KNOT,のっと,dollchestra
-dododo,ド！ド！ド！,どどど,mira-cra_park
-edelied,Edelied,えーでりーど,edel_note
-yumewazurai,ユメワズライ,ゆめわずらい,cerise_bouquet
-compass,COMPASS,こんぱす,dollchestra
-rem,レム,れむ,dollchestra
-suisai_sekai,水彩世界,すいさいせかい,cerise_bouquet
-reflec,Reflection in the mirror,りふれくしょんいんざみらー,cerise_bouquet
-reflec_104,Reflection in the mirror(104期ver),りふれくしょんいんざみらーひゃくよんきばーじょん,cerise_bouquet
-fortune_movie,フォーチュンムービー,ふぉーちゅんむーびー,cerise_bouquet
-mix_shake,Mix shake!!,みっくすしぇいく,cerise_bouquet
-zanyou,残陽,ざんよう,cerise_bouquet
-dear_my_future,Dear my future,でぃあまいふゅーちゃー,cerise_bouquet
-kawaii_no_susume,Kawaii no susume,かわいいのすすめ,cerise_bouquet
-special_thanks,Special thanks,すぺしゃるさんくす,cerise_bouquet
-ouka_ranman,謳歌爛漫,おうからんまん,cerise_bouquet
-senpen_banka,千変万華,せんぺんばんか,cerise_bouquet
-koigeshiki,恋景色昭和ロマン,こいげしきしょうわろまん,cerise_bouquet
-chu_chocolate,Chu! Chocolate,ちゅっちょこれーと,cerise_bouquet
-celebration,Celebration!,せれぶれーしょん,cerise_bouquet
-dentete,アイデンティティ,あいでんてぃてぃ,mira-cra_park
-dentete_104,アイデンティティ(104期ver),あいでんてぃてぃひゃくよんきばーじょん,mira-cra_park
-pixel,素顔のピクセル,すがおのぴくせる,cerise_bouquet
-sugermelt,シュガーメルト,しゅがーめると,cerise_bouquet
-holiholi,Holiday♾️Holiday,ほりでーほりでー,cerise_bouquet
-tsukuyomi,月夜見海月,つくよみくらげ,cerise_bouquet
-hanamusubi,ハナムスビ,はなむすび,cerise_bouquet
-bird_cage,バアドケエジ,ばあどけえじ,dollchestra
-jyosyo_kiryuu,ジョーショーキリュー,じょーしょーきりゅー,mira-cra_park
-aoharu,アオクハルカ,あおくはるか,cerise_bouquet
-lady_bug,レディバグ,れでぃばぐ,dollchestra
-miracreation,みらくりえいしょん,みらくりえいしょん,mira-cra_park
-fanfare,ファンファーレ！！！,ふぁんふぁーれ,mira-cra_park
-zenhoui_kyun,全方位キュン♡,ぜんほういきゅん,mira-cra_park
-kakurenbo,かくれんぼしようよ,かくれんぼしようよ,mira-cra_park
-proof,Proof,ぷるーふ,dollchestra
-ampere,アンペア,あんぺあ,dollchestra
-awoke,AWOKE,あうぉーく,dollchestra
-ao_to_syabon,青とシャボン,あおとしゃぼん,dollchestra
-ameiro,飴色,あめいろ,dollchestra
-jibun_diary,ジブンダイアリー,じぶんだいありー,dollchestra
-scapegoat,スケイプゴート,すけいぷごーと,dollchestra
-kibou_teki_prism,希望的プリズム,きぼうてきぷりずむ,dollchestra
-sparkly_spot,Sparkly Spot,すぱーくりーすぽっと,dollchestra
-seisyun_no_linkaku,青春の輪郭,せいしゅんのりんかく,dollchestra
-tsukimakase,ツキマカセ,つきまかせ,dollchestra
-take_it_over,Take It Over,ていくいっとおーばー,dollchestra
-tragic_drops,Tragic Drops,とらじっくどろっぷす,dollchestra
-mirage_voyage,Mirage Voyage,みらーじゅぼやーじゅ,dollchestra
-vege_love_ru,ベジ・ラブ・ルー,ベジらぶるー,dollchestra
+key,name,name_kana,units
+genyou_yako,眩耀夜行,げんようやこう,cerise_bouquet_103 & cerise_bouquet_104
+knot,KNOT,のっと,dollchestra_103 & dollchestra_104
+dododo,ド！ド！ド！,どどど,mira-cra_park_103 & mira-cra_park_104
+edelied,Edelied,えーでりーど,edel_note_104
+yumewazurai,ユメワズライ,ゆめわずらい,cerise_bouquet_104
+compass,COMPASS,こんぱす,dollchestra_104
+rem,レム,れむ,dollchestra_104
+suisai_sekai,水彩世界,すいさいせかい,cerise_bouquet_103 & cerise_bouquet_104
+reflec,Reflection in the mirror,りふれくしょんいんざみらー,cerise_bouquet_103 & cerise_bouquet_104
+fortune_movie,フォーチュンムービー,ふぉーちゅんむーびー,cerise_bouquet_103
+mix_shake,Mix shake!!,みっくすしぇいく,cerise_bouquet_103
+zanyou,残陽,ざんよう,cerise_bouquet_103
+dear_my_future,Dear my future,でぃあまいふゅーちゃー,cerise_bouquet_103
+kawaii_no_susume,Kawaii no susume,かわいいのすすめ,cerise_bouquet_103 & cerise_bouquet_104
+special_thanks,Special thanks,すぺしゃるさんくす,cerise_bouquet_103
+ouka_ranman,謳歌爛漫,おうからんまん,cerise_bouquet_103
+senpen_banka,千変万華,せんぺんばんか,cerise_bouquet_103 & cerise_bouquet_104
+koigeshiki,恋景色昭和ロマン,こいげしきしょうわろまん,cerise_bouquet_104
+chu_chocolate,Chu! Chocolate,ちゅっちょこれーと,cerise_bouquet_104
+celebration,Celebration!,せれぶれーしょん,cerise_bouquet_105
+dentete,アイデンティティ,あいでんてぃてぃ,mira-cra_park_103 & mira-cra_park_104
+pixel,素顔のピクセル,すがおのぴくせる,cerise_bouquet_103 & cerise_bouquet_104
+sugermelt,シュガーメルト,しゅがーめると,cerise_bouquet_103 & cerise_bouquet_104 
+holiholi,Holiday♾️Holiday,ほりでーほりでー,cerise_bouquet_103 & cerise_bouquet_104
+tsukuyomi,月夜見海月,つくよみくらげ,cerise_bouquet_104
+hanamusubi,ハナムスビ,はなむすび,cerise_bouquet_104
+bird_cage,バアドケエジ,ばあどけえじ,dollchestra_104
+jyosyo_kiryuu,ジョーショーキリュー,じょーしょーきりゅー,mira-cra_park_104
+aoharu,アオクハルカ,あおくはるか,cerise_bouquet_104
+lady_bug,レディバグ,れでぃばぐ,dollchestra_104
+miracreation,みらくりえいしょん,みらくりえいしょん,mira-cra_park_104
+fanfare,ファンファーレ！！！,ふぁんふぁーれ,mira-cra_park_104
+zenhoui_kyun,全方位キュン♡,ぜんほういきゅん,mira-cra_park_104
+kakurenbo,かくれんぼしようよ,かくれんぼしようよ,mira-cra_park_104
+proof,Proof,ぷるーふ,dollchestra_104
+ampere,アンペア,あんぺあ,dollchestra_105
+awoke,AWOKE,あうぉーく,dollchestra_103
+ao_to_syabon,青とシャボン,あおとしゃぼん,dollchestra_103
+ameiro,飴色,あめいろ,dollchestra_103
+jibun_diary,ジブンダイアリー,じぶんだいありー,dollchestra_103
+scapegoat,スケイプゴート,すけいぷごーと,dollchestra_103
+kibou_teki_prism,希望的プリズム,きぼうてきぷりずむ,dollchestra_103
+sparkly_spot,Sparkly Spot,すぱーくりーすぽっと,dollchestra_103 & dollchestra_104
+seisyun_no_linkaku,青春の輪郭,せいしゅんのりんかく,dollchestra_103
+tsukimakase,ツキマカセ,つきまかせ,dollchestra_103 & dollchestra_104
+take_it_over,Take It Over,ていくいっとおーばー,dollchestra_103
+tragic_drops,Tragic Drops,とらじっくどろっぷす,dollchestra_103
+mirage_voyage,Mirage Voyage,みらーじゅぼやーじゅ,dollchestra_103
+vege_love_ru,ベジ・ラブ・ルー,ベジらぶるー,dollchestra_104
+retrofuture,レトロフューチャー,れとろふゅーちゃー,edel_note_105
+chirikonkan,チリコンカン,ちりこんかん,edel_note_105
+tenchi_reimei,天地黎明,てんちれいめい,edel_note_105
+dream_belivers,Dream Belivers,どりーむびりばーず,hasu_no_sora_103 & hasu_no_sora_104 & hasu_no_sora_105
+eien_no_euforia,永遠のEuphoria,えいえんのゆーふぉりあ,hasu_no_sora_103 & hasu_no_sora_104
+trick_and_cute,Trick and Cute,とりっくあんどきゅーと,hasu_no_sora_103 & hasu_no_sora_104
+deepness,Deepness,でぃーぷねす,hasu_no_sora_103
+on_your_mark,On your mark,おんゆあまーく,hasu_no_sora_103
+aurora_flower,Aurora Flower,あうろらふらわー,hasu_no_sora_104
+tsubasa_la_liverte,ツバサ・ラ・リベルテ,つばさらりべるて,hasu_no_sora_103
+link_to_the_future,Link to the future,りんくとぅざふゅーちゃー,hasu_no_sora_103 & hasu_no_sora_104
+key_of_like,KEY of Like!,きーおぶらいく,hasu_no_sora_104
+now_or_never,Now or Never,なうおあーねばー,hasu_no_sora_104
+gekka_bijin,ゲッカビジン,げっかびじん,hasu_no_sora_104
+ittan,いったん,いったん,hasu_no_sora_104
+natumeki_pain,夏めきペイン,なつめきぺいん,hasu_no_sora_103
