@@ -1,0 +1,8 @@
+{
+    "subjectBaseUrl": "$BASE_URL/rdfs/unit-group/",
+    "PredicateBaseUrl": "$BASE_URL/lovelive-schema.ttl#",
+    "dataCsvPath": "../_data/unit/unit-groups.csv",
+    "columnsCsvPath": "../_data/unit/unit-groups-columns.csv",
+    "rdfType": "$BASE_URL/lovelive-schema.ttl#Unit-Groups",
+    "label": {"keys": ["name"], "pattern": "$0"}
+}

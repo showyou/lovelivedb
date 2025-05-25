@@ -1,0 +1,6 @@
+key,predicate,dataType,objectUriPrefix,objectsSeparator
+name,name,,,
+name_kana,name_kana,,,
+name_katakana,name_katakana,,,
+groups,groups,,$BASE_URL/rdfs/unit/,&
+project,project,,$BASE_URL/rdfs/project/,
