@@ -1,15 +1,15 @@
-key,year,members
-cerise_bouquet_103,103,hinoshita_kaho & otomune_kozue
-cerise_bouquet_104,104,hinoshita_kaho & momose_ginko & otomune_kozue
-cerise_bouquet_105,105,hinoshita_kaho & momose_ginko
-dollchestra_103,103,murano_sayaka & yugiri_tsuzuri
-dollchestra_104,104,murano_sayaka & kachimachi_kosuzu & yugiri_tsuzuri
-dollchestra_105,105,murano_sayaka & kachimachi_kosuzu
-mira-cra_park_103,103,osawa_rurino & fujishima_megumi
-mira-cra_park_104,104,osawa_rurino & anyoji_hime & fujishima_megumi
-mira-cra_park_105,105,osawa_rurino & anyoji_hime
-edel_note_104,104,ceras_y_lilienfeld & katsuragi_izumi
-edel_note_105,105,ceras_y_lilienfeld & katsuragi_izumi
-hasu_no_sora_103,103,hinoshita_kaho & murano_sayaka & osawa_rurino & otomune_kozue & yugiri_tsuzuri & fujishima_megumi
-hasu_no_sora_104,104,hinoshita_kaho & murano_sayaka & osawa_rurino & otomune_kozue & yugiri_tsuzuri & fujishima_megumi & momose_ginko & kachimachi_kosuzu & anyoji_hime
-hasu_no_sora_105,105,hinoshita_kaho & murano_sayaka & osawa_rurino & momose_ginko & kachimachi_kosuzu & anyoji_hime & ceras_y_lilienfeld & katsuragi_izumi
+key,name,year,members
+cerise_bouquet_103,スリーズブーケ(103期),103,hinoshita_kaho & otomune_kozue
+cerise_bouquet_104,スリーズブーケ(104期),104,hinoshita_kaho & momose_ginko & otomune_kozue
+cerise_bouquet_105,スリーズブーケ(105期),105,hinoshita_kaho & momose_ginko
+dollchestra_103,ドルケストラ(103期),103,murano_sayaka & yugiri_tsuzuri
+dollchestra_104,ドルケストラ(104期),104,murano_sayaka & kachimachi_kosuzu & yugiri_tsuzuri
+dollchestra_105,ドルケストラ(105期),105,murano_sayaka & kachimachi_kosuzu
+mira-cra_park_103,みらくらぱーく！(103期),103,osawa_rurino & fujishima_megumi
+mira-cra_park_104,みらくらぱーく！(104期),104,osawa_rurino & anyoji_hime & fujishima_megumi
+mira-cra_park_105,みらくらぱーく！(105期),105,osawa_rurino & anyoji_hime
+edel_note_104,Edel note,104,ceras_y_lilienfeld & katsuragi_izumi
+edel_note_105,Edel note,105,ceras_y_lilienfeld & katsuragi_izumi
+hasu_no_sora_103,蓮ノ空女学院スクールアイドルクラブ,103,hinoshita_kaho & murano_sayaka & osawa_rurino & otomune_kozue & yugiri_tsuzuri & fujishima_megumi
+hasu_no_sora_104,蓮ノ空女学院スクールアイドルクラブ,104,hinoshita_kaho & murano_sayaka & osawa_rurino & otomune_kozue & yugiri_tsuzuri & fujishima_megumi & momose_ginko & kachimachi_kosuzu & anyoji_hime
+hasu_no_sora_105,蓮ノ空女学院スクールアイドルクラブ,105,hinoshita_kaho & murano_sayaka & osawa_rurino & momose_ginko & kachimachi_kosuzu & anyoji_hime & ceras_y_lilienfeld & katsuragi_izumi

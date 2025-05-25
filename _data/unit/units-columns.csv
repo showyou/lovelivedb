@@ -1,3 +1,4 @@
 key,predicate,dataType,objectUriPrefix,objectsSeparator
+name,name,,,
 year,year,http://www.w3.org/2001/XMLSchema#integer,,
 members,members,,$BASE_URL/rdfs/character/,&
