@@ -1,0 +1,9 @@
+{
+    "subjectBaseUrl": "$BASE_URL/rdfs/live/",
+    "subjectKey": {"keys": ["live_id", "song"], "pattern": "hasunosora_$0_$1"},
+    "PredicateBaseUrl": "$BASE_URL/lovelive-schema.ttl#",
+    "dataCsvPath": "../_data/live/hasunosora-lives.csv",
+    "columnsCsvPath": "../_data/live/hasunosora-lives-columns.csv",
+    "rdfType": "$BASE_URL/hasunosora-schema.ttl#Live",
+    "label": {"keys": ["live_id", "song"], "pattern": "hasunosora_$0_$1"}
+}

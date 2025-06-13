@@ -1,0 +1,3 @@
+key,predicate,dataType,objectUriPrefix,inversePredicate
+live_id,live_name_or_number,,
+song,songPerformed,,$BASE_URL/rdfs/song/,performedInLive,
